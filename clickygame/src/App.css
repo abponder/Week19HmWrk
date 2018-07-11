@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: purple;
+  padding: 20px;
+  color:white;
+  font-size: 22px;
+}
+.game-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+}
