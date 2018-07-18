@@ -1,0 +1,27 @@
+{
+  "name": "ClickyGame",
+  "version": "1.0.0",
+  "description": "For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abponder/Week19HmWrk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abponder/Week19HmWrk/issues"
+  },
+  "homepage": "https://github.com/abponder/Week19HmWrk#readme"
+}
